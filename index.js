@@ -13,6 +13,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/",UserRoute)
 
-app.listen(3000,()=>{
-    console.log("running on 3000")
+app.listen(9002,()=>{
+    console.log("running on 9002")
 })
