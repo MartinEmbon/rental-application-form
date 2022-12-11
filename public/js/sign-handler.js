@@ -56,8 +56,6 @@ createPDFBtn.addEventListener("click", function (event) {
   var doc = new jsPDF('p', 'pt', 'a4',10,10);
   
 
-
-
   doc.html(document.getElementById('toPrint'), {
     html2canvas: {
       scale: .55
