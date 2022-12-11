@@ -46,8 +46,8 @@ let userController = {
             host: 'smpt.gmail.com',
             secure: false,
             auth: {
-                user: "syrahsommeliers@gmail.com",
-                pass: "tdwyqeyddeqcymjr"
+                user: process.env.USER ,
+                pass: process.env.PASSWORD
             }
         });
 
