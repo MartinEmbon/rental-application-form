@@ -1,7 +1,7 @@
 require("dotenv").config()
 const nodemailer = require("nodemailer")
 var multer = require('multer');
-var fileUpload = require('../upload-middleware');
+var fileUpload = require('./upload-middleware');
 
 let userController = {
 
