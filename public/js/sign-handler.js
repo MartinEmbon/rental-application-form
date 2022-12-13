@@ -58,9 +58,10 @@ undoBtn.addEventListener("click", function (event) {
 createPDFBtn.addEventListener("click", function (event) {
   window.html2canvas = html2canvas;
   window.jsPDF = window.jspdf.jsPDF
-  var doc = new jsPDF('p', 'pt', 'a4',1,1);
   
-
+  
+  var doc = new jsPDF('p', 'pt', 'a4');
+  
   doc.html(document.getElementById('toPrint'), {
     html2canvas: {
       scale: .55
@@ -70,8 +71,8 @@ createPDFBtn.addEventListener("click", function (event) {
       
       doc.save();      
     },
-    x: 1,
-    y: 1
+    x: 10,
+    y: 0
     
   });
 
