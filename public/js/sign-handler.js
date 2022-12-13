@@ -55,7 +55,6 @@ createPDFBtn.addEventListener("click", function (event) {
   window.jsPDF = window.jspdf.jsPDF
   var doc = new jsPDF('p', 'pt', 'a4',10,10);
   
-  doc.lineHeightProportion = 0;
 
   doc.html(document.getElementById('toPrint'), {
     html2canvas: {
