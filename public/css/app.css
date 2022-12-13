@@ -1335,4 +1335,9 @@ video {
 * {
     margin-bottom: 5px !important;
     margin-top: 0 !important;
+
+}
+
+p,input,textarea,span {
+    font-size: 13px !important
 }

@@ -17,7 +17,7 @@ p {
  h1 {
     position: absolute;
     margin: 0;
-    font-size: 36px;
+    font-size: 1.5rem !important;
     color: #fff;
     z-index: 2;
 }
@@ -58,7 +58,7 @@ form .item textarea{
 
 .banner {
     position: relative;
-    height: 130px;
+    height: 100px;
     /* background-image: url("/uploads/media/default/0001/01/9e07ce3a601795a5ac09a66a0c1fc8978e0ee51a.jpeg"); */
     background-size: cover;
     display: flex;
