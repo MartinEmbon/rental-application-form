@@ -199,6 +199,7 @@ button:hover {
    margin-bottom: 12px;
 }
 
+
 	@media only screen and (max-width: 600px) {
     #toPrint {
         width: 100% !important;

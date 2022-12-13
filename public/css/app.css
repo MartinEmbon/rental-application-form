@@ -103,7 +103,7 @@ textarea {
     font-family: inherit;
     font-size: 100%;
     font-weight: inherit;
-    line-height: inherit;
+    /* line-height: inherit; */
     color: inherit;
     margin: 0;
     padding: 0
@@ -1246,7 +1246,7 @@ video {
 
  form {
       width: 100%;
-      padding: 20px;
+      /* padding: 20px; */
       background: #fff;
       box-shadow: 0 2px 5px #ccc; 
       }
@@ -1255,7 +1255,7 @@ video {
       padding: 5px;
       border: 1px solid #ccc;
       border-radius: 3px;
-      vertical-align: middle;
+      /* vertical-align: top; */
       }
       input:hover, textarea:hover {
       outline: none;
@@ -1286,7 +1286,7 @@ video {
       width: calc(100% - 6px);
       }
       .question {
-      padding: 15px 0 5px;
+      padding: 5px;
       color: #095484;
       }
       .question-answer label {
@@ -1323,7 +1323,7 @@ video {
 
 .name-item input,
 .item input{
-   padding: 10px 5px !important;
+   padding: 5px 5px !important;
    color: black;
 }
 
