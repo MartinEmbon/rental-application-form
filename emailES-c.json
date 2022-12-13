@@ -99,23 +99,23 @@
                                                                     style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; font-size: 16px; line-height: 150%; font-family: Helvetica, Arial, sans-serif; color: #666666; padding: 9px 18px; word-break: break-word !important;"
                                                                     class="padding">
                                                                     <p style="line-height: 150%;">&nbsp;</p>
-                                                                    <p style="line-height: 150%;">Hi,
+                                                                    <p style="line-height: 150%;">Hola,
                                                                         <b>${user.user}!</b></p>
                                                                     <p style="line-height: 80%;">&nbsp;</p>
 
-                                                                    <p style="line-height: 150%;">It looks like you almost concluded the <b>${user.shortname}</b> course in <b><a
-                                                                                href="https://digibee.academy">Digibee Academy.</a></b>You are so close, keep it up!</p>
+                                                                    <p style="line-height: 150%;">Parece que casi finalizó el curso <b>${user.shortname}</b> en  <b><a
+                                                                                href="https://digibee.academy">Digibee Academy.</a></b> Está muy cerca, continue así!</p>
 
                                                                                 <p style="line-height: 80%;">&nbsp;</p>
                                                                             
                                                                             
-                                                                                <p style="line-height: 100%;">Your current progress is <b>${user.course_progress}%</b> with only <b>${user.remaining}</b> ${user.plural} 
-                                                                            left! Let's cross that finish line!</p>
+                                                                                <p style="line-height: 150%;">Su progreso actual es del <b>${user.course_progress}%</b> y sólo ${user.quedan} <b>${user.remaining}</b> ${user.plural} 
+                                                                                ${user.left}! Vamos a cruzar esa meta!</p>
                                                                             
                                                                             <p style="line-height: 80%;">&nbsp;</p>
                                                                           
-                                                                            <p style="line-height: 100%;">We invite you to <b>
-                                                                            <a href="https://digibee.academy">Log in now</a> and earn your certificate today!  
+                                                                            <p style="line-height: 100%;">Le invitamos a <b>
+                                                                            <a href="https://digibee.academy">iniciar sesión</a> y obtener su certificado hoy!  
                                                                             </b></p>
                                                                                                                                                   
                                                                 </td>

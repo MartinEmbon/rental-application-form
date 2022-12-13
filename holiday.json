@@ -49,11 +49,7 @@
                                                                         style="width:210px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tr>
                                                                             <td class="columnContainerCell" valign="top"
-                                                                                style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word; vertical-align: top; text-align: left; font-size: 11px; line-height: 120%; font-family: Helvetica, Arial, sans-serif; color: #888888; padding-top: 9px; padding-left: 9px; padding-bottom: 9px; padding-right: 9px;">
-                                                                                Visualizar como <a
-                                                                                    href="https://app.rdstation.email/mail/*UUID*"
-                                                                                    style="color: #333333;text-decoration: underline;"
-                                                                                    data-scanner-ignore>página web</a>
+                                                                                style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word; vertical-align: top; text-align: left; font-size: 11px; line-height: 120%; font-family: Helvetica, Arial, sans-serif; color: #888888; padding-top: 9px; padding-left: 9px; padding-bottom: 9px; padding-right: 9px;">                                                                              
                                                                             </td>
                                                                         </tr>
                                                                     </table>
@@ -104,14 +100,25 @@
                                                                     class="padding">
                                                                     <p style="line-height: 150%;">&nbsp;</p>
                                                                     <p style="line-height: 150%;">Hi,
-                                                                        <b>${user.user}</b></p>
-                                                                    <p style="line-height: 150%;">&nbsp;</p>
-                                                                    <p style="line-height: 150%;">It looks like you almost concluded the <b>${user.shortname}</b> course in <b><a
-                                                                                href="http://www.digibee.academy">Digibiee Academy.
-                                                                            </a></b>You have only <b>${user.remaining}</b> ${user.plural} remaining! 
-                                                                            <p style="line-height: 150%;">&nbsp;</p>
-                                                                            <b><a
-                                                                                href="https://digibee.academy">Log in now, get back on track and earn your certificate!</a></b>                                                                        
+                                                                        <b>${user.fullName}</b></p>
+                                                                    <p style="line-height: 100%;">&nbsp;</p>
+                                                                    <p style="line-height: 100%;">Thank you for being part of the <b><a
+                                                                    href="https://digibee.academy">Digibee Academy</b> Community!
+                                                                    <p style="line-height: 100%;">&nbsp;</p>
+                                                                </a>
+                                                                <p style="line-height: 150%;"> We would like to wish you Best Wishes for a Happy Holiday and a prosperous New Year!
+                                                               </p>
+                                                                        <p style="line-height: 150%;">From everyone at Digibee Academy!  
+                                                                        </p>
+                                                                          
+                                                                        
+                                                                        <p style="line-height: 100%;"><b>  
+                                                                            <a href="https://digibee.academy">Visit us</a></b>
+                                                                            to find our newest courses and certifications vailable
+                                                                            !  
+                                                                            </p>
+                                                                            
+                                                                                                                                                  
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -180,11 +187,10 @@
                                                                         Paulo, Sp 04547-130, Brasil</p>
                                                                     <p
                                                                         style="font-size: 11px !important; margin: 0; line-height: 120%;">
-                                                                        Se deseja não receber mais mensagens como esta,
-                                                                        <a href="https://app.rdstation.email/descadastrar/*UUID*"
+                                                                        If you wish to unsubscribe, please reply back to enablement@digibee.com with unsubscribe in the subject,
+                                                                        <a href="enablement@digibee.com"
                                                                             style="color: #333333; text-decoration: underline;"
-                                                                            rel="nofollow" data-scanner-ignore>clique
-                                                                            aqui</a>. </p> <span
+                                                                            rel="nofollow" data-scanner-ignore></a>.</p> <span
                                                                         style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">•</span>
                                                                 </td>
                                                             </tr>

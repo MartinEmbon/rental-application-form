@@ -49,11 +49,16 @@ undoBtn.addEventListener("click", function (event) {
   }
 });
 
+
+
+
+
+
 //creating a pdf using the jsPDF library
 createPDFBtn.addEventListener("click", function (event) {
   window.html2canvas = html2canvas;
   window.jsPDF = window.jspdf.jsPDF
-  var doc = new jsPDF('p', 'pt', 'a4',10,10);
+  var doc = new jsPDF('p', 'pt', 'a4',1,1);
   
 
   doc.html(document.getElementById('toPrint'), {
@@ -65,8 +70,8 @@ createPDFBtn.addEventListener("click", function (event) {
       
       doc.save();      
     },
-    x: 10,
-    y: 10
+    x: 1,
+    y: 1
     
   });
 

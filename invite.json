@@ -100,23 +100,26 @@
                                                                     class="padding">
                                                                     <p style="line-height: 150%;">&nbsp;</p>
                                                                     <p style="line-height: 150%;">Hi,
-                                                                        <b>${user.user}!</b></p>
-                                                                    <p style="line-height: 80%;">&nbsp;</p>
-
-                                                                    <p style="line-height: 150%;">It looks like you almost concluded the <b>${user.shortname}</b> course in <b><a
-                                                                                href="https://digibee.academy">Digibee Academy.</a></b>You are so close, keep it up!</p>
-
-                                                                                <p style="line-height: 80%;">&nbsp;</p>
-                                                                            
-                                                                            
-                                                                                <p style="line-height: 100%;">Your current progress is <b>${user.course_progress}%</b> with only <b>${user.remaining}</b> ${user.plural} 
-                                                                            left! Let's cross that finish line!</p>
-                                                                            
-                                                                            <p style="line-height: 80%;">&nbsp;</p>
+                                                                        <b>${user.user}</b></p>
+                                                                    <p style="line-height: 100%;">&nbsp;</p>
+                                                                    <p style="line-height: 100%;">Thank you for being part of the <b><a
+                                                                    href="https://digibee.academy">Digibee Academy</b> Community!
+                                                                    <p style="line-height: 100%;">&nbsp;</p>
+                                                                </a>
+                                                                <p style="line-height: 150%;"> We would love to invite you to participante in our <b>${invitation} Course</b>!
+                                                                where you will learn about the following topics:</p>
+                                                                            <ul>
+                                                                            <li>Topic 1</li>
+                                                                            <li>Topic 2</li>
+                                                                        </ul>
+                                                                        <p style="line-height: 150%;">This course will help your self-sufficency because it provides top-knoch information!  
+                                                                        </p>
                                                                           
-                                                                            <p style="line-height: 100%;">We invite you to <b>
-                                                                            <a href="https://digibee.academy">Log in now</a> and earn your certificate today!  
-                                                                            </b></p>
+                                                                        
+                                                                        <p style="line-height: 100%;"><b>
+                                                                            <a href="https://digibee.academy">Log in now</a></b> and earn your certificate!  
+                                                                            </p>
+                                                                            
                                                                                                                                                   
                                                                 </td>
                                                             </tr>

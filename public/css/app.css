@@ -1331,3 +1331,8 @@ video {
 .item input {
     color: grey;
 }
+
+* {
+    margin-bottom: 5px !important;
+    margin-top: 0 !important;
+}
