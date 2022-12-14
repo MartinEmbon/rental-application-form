@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
+    <!-- <link rel="stylesheet" href="css/app.css"> -->
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/signature_pad.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +45,7 @@
                         <div class="item">
                             <p>Please, type your name and lastname<span class="required">*</span></p>
                             <div class="name-item">
-                                <input style="padding: 0 5px;" type="text" name="name" placeholder="First" required />
+                                <input  type="text" name="name" placeholder="First" required />
                                 <input type="text" name="name" placeholder="Last" required />
                             </div>
                         </div>
@@ -184,19 +184,21 @@
                                 were an original.</p>
                             <label for="today">Date</label>
                             <input type="date" name="today" id="finaldate">
-                        </div>
 
-                        <div class="col-md-12 d-flex justify-content-end">
+                            <div class="col-md-12 d-flex justify-content-end">
 
-                            <div class="col-md-3 d-flex justify-content-center">
-                                <span class=" mb-4">Your Signature</span>
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <span class=" mb-4">Your Signature</span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-end">
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <img id="signature" style="border: 1px solid black;" width="200px" height="80px">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-12 d-flex justify-content-end">
-                            <div class="col-md-3 d-flex justify-content-center">
-                                <img id="signature" style="border: 1px solid black;" width="250px" height="100px">
-                            </div>
-                        </div>
+
+                    
                     </div>
 
 
@@ -226,9 +228,9 @@
         </div>
     </div>
     </div>
+    
     <script src="js/signature_pad.umd.js"></script>
     <script src="js/sign-handler.js"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </body>

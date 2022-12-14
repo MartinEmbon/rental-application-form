@@ -64,7 +64,7 @@ createPDFBtn.addEventListener("click", function (event) {
   
   doc.html(document.getElementById('toPrint'), {
     html2canvas: {
-      scale: .55
+      scale: .52
   },
 
     callback: function (doc) {
