@@ -176,9 +176,9 @@ button:hover {
    .name-item input{
        margin-top: 5px !important;
    }
-   .name-item input[type="date"]{
+   /* .name-item input[type="date"]{
        width: 100% !important;
-   }
+   } */
  #canvas {
    width: 80%;
  } 
@@ -207,7 +207,23 @@ button:hover {
         display: block;
         font-size: 11px !important;
     }
-
+    .question label{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .item p{
+        margin-bottom: 0;
+    }
+    .banner{
+        height: 70px;
+    }
+    #hereby{
+        font-size: 10px;
+    }
+    .form .banner h1{
+        line-height: 1.2;
+        font-size: 22px !important;
+    }
   
 }
 
